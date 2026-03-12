@@ -1,58 +1,16 @@
 [
   {
-    "id": "2048",
-    "title": "2048",
-    "description": "Join the numbers and get to the 2048 tile! A simple but addictive puzzle game.",
-    "thumbnail": "https://picsum.photos/seed/2048/400/300",
-    "iframeUrl": "https://play2048.co/"
+    "id": "atari-classic",
+    "title": "Atari Classic",
+    "description": "Experience the golden age of arcade gaming with this Atari classic. Simple, addictive, and timeless.",
+    "iframeUrl": "https://1726163871-atari-embeds.googleusercontent.com/embeds/16cb204cf3a9d4d223a0a3fd8b0eec5d/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.PCvl17LujMs.O%2Fd%3D1%2Frs%3DAHpOoo-sAn5Asuf3MvShXCH_dsg8tE46Tw%2Fm%3D__features__",
+    "thumbnail": "https://picsum.photos/seed/atari/800/600"
   },
   {
-    "id": "tetris",
-    "title": "Tetris",
-    "description": "The classic block-stacking puzzle game that never gets old.",
-    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
-    "iframeUrl": "https://tetris.com/play-tetris"
-  },
-  {
-    "id": "pacman",
-    "title": "Pac-Man",
-    "description": "Munch dots and avoid ghosts in this legendary arcade classic.",
-    "thumbnail": "https://picsum.photos/seed/pacman/400/300",
-    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html"
-  },
-  {
-    "id": "snake",
-    "title": "Snake",
-    "description": "The original mobile game. Eat apples and grow longer without hitting yourself.",
-    "thumbnail": "https://picsum.photos/seed/snake/400/300",
-    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html"
-  },
-  {
-    "id": "flappy-bird",
-    "title": "Flappy Bird",
-    "description": "Test your patience and reflexes in this challenging bird flight game.",
-    "thumbnail": "https://picsum.photos/seed/flappy/400/300",
-    "iframeUrl": "https://flappybird.io/"
-  },
-  {
-    "id": "slope",
-    "title": "Slope",
-    "description": "A fast-paced 3D running game where you roll a ball down a neon slope.",
-    "thumbnail": "https://picsum.photos/seed/slope/400/300",
-    "iframeUrl": "https://slopegame.online/"
-  },
-  {
-    "id": "crossy-road",
-    "title": "Crossy Road",
-    "description": "Why did the chicken cross the road? Find out in this endless hopper.",
-    "thumbnail": "https://picsum.photos/seed/crossy/400/300",
-    "iframeUrl": "https://www.poki.com/en/g/crossy-road"
-  },
-  {
-    "id": "dino-run",
-    "title": "Dino Run",
-    "description": "The famous 'No Internet' dinosaur game. Jump over cacti and avoid birds.",
-    "thumbnail": "https://picsum.photos/seed/dino/400/300",
-    "iframeUrl": "https://chromedino.com/"
+    "id": "gd-wave",
+    "title": "Geometry Dash Wave",
+    "description": "Test your reflexes in this intense wave-based rhythm game. Navigate through narrow corridors and avoid obstacles to reach the end.",
+    "iframeUrl": "https://sites.google.com/view/drive-u-7-home-10/gd-wavex",
+    "thumbnail": "https://picsum.photos/seed/geometry/800/600"
   }
 ]

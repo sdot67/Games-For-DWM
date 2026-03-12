@@ -83,6 +83,16 @@ export default function App() {
                   Back to Catalog
                 </button>
                 <div className="flex items-center gap-2">
+                  <a 
+                    href={selectedGame.iframeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-white/20 rounded-lg text-xs font-medium transition-colors text-white"
+                    title="Open in New Tab"
+                  >
+                    <Play className="w-3 h-3" />
+                    Open in New Tab
+                  </a>
                   <button 
                     onClick={() => setIsFullScreen(!isFullScreen)}
                     className="p-2 hover:bg-gray-200 rounded-lg transition-colors"
@@ -112,13 +122,28 @@ export default function App() {
                   src={selectedGame.iframeUrl}
                   className="w-full h-full border-none"
                   allow="fullscreen; autoplay; encrypted-media"
+                  sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation"
                   title={selectedGame.title}
                 />
               </div>
 
-              <div className="flex flex-col gap-2">
-                <h2 className="text-3xl font-bold tracking-tight">{selectedGame.title}</h2>
-                <p className="text-gray-500 max-w-2xl">{selectedGame.description}</p>
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="flex flex-col gap-2">
+                  <h2 className="text-3xl font-bold tracking-tight">{selectedGame.title}</h2>
+                  <p className="text-gray-500 max-w-2xl">{selectedGame.description}</p>
+                </div>
+                
+                <div className="bg-amber-50 border border-amber-100 p-4 rounded-xl flex items-start gap-3 max-w-xs">
+                  <div className="text-amber-500 mt-0.5">
+                    <Play className="w-4 h-4" />
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <span className="text-xs font-bold text-amber-900 uppercase tracking-wider">Trouble loading?</span>
+                    <p className="text-xs text-amber-800 leading-relaxed">
+                      Some games (like Google Sites) block embedding. Use the <b>"Open in New Tab"</b> button above to play!
+                    </p>
+                  </div>
+                </div>
               </div>
             </motion.div>
           ) : (
